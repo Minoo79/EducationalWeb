@@ -1,0 +1,115 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.off-link-dir {
+    text-align: right;
+}
+
+
+
+/*login style*/
+.loginimg {
+    width: 100%;
+    margin-top: 20%;
+}
+.form-style {
+    text-align: right;
+    margin-right: 20%;
+    padding: 10px;
+}
+.logintitle {
+    padding-bottom: 5%;
+    font-size: 20pt;
+}
+.inputs {
+  padding: 5px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+}
+.inputs:hover{
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+.inputs:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.login-btn-style {
+  padding: 5px;
+  width: 30%;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-color: rgb(0, 149, 255);
+  border-width: 2px;
+  box-shadow: rgb(0, 166, 255) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  background-color: rgb(0, 149, 255);
+  color: white;
+}
+.login-btn-style:hover{
+  box-shadow: rgb(0, 179, 255) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+.login-btn-style:focus {
+  box-shadow: rgb(0, 183, 255) 2px 8px 4px -6px;
+}
+
+
+
+
+/*footer */
+.footer01 {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(182, 230, 252);
+    color: white;
+    margin-top: 30%;
+  }
+  .footer-dir-01 {
+    direction: rtl;
+  }
+  .footer-dir02 {
+    text-align: center;
+  }
+  .footer-links {
+    text-decoration: none;
+  }
+
+
+
+@media only screen and (max-width: 768px){
+    .loginimg {
+        display: inline;
+        width: 200%;
+        height: 100%;
+        padding-top: 5%;
+    }
+    .form-style {
+      padding-top: 100%;
+      margin-right: 25%;
+    }
+    .logintitle {
+      text-align: center;
+    }
+    .login-btn-style {
+      width: 100%;
+      margin-left: 8%;
+    }
+    .footer01 {
+      margin-top: 150%;
+    }
+  }

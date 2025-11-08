@@ -1,0 +1,208 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/*nav style*/
+.nav-style {
+    direction: rtl;
+    opacity: 80%;
+}
+.offcanvas-pos {
+  margin-top: 3%;
+}
+.btn-signin {
+  margin-top: 3%;
+  background-color: rgb(0, 170, 255);
+}
+
+
+/*bg style*/
+.circle-blue {
+    position: relative;
+    background-image: url(../images/circle-blue.png);
+    width: 100%;
+    height: 2900px;
+}
+
+
+/*courses section */
+.courses {
+  margin-right: 5%;
+  font-size: 18pt;
+}
+.cards-style {
+  border: transparent;
+  box-shadow: 2px 2px 5px 2px rgb(199, 199, 199)
+}
+
+
+
+/*header sign up section*/
+.sign-up-text {
+    padding: 10px;
+    position: relative;
+    right: 15%;
+    direction: rtl;
+}
+
+
+
+/*sign up btns */
+.button-signin {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-signin:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-signin:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.button-signup {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-signup span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-signup span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-signup:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-signup:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-signup:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+.arrow {
+  width: 10%;
+  position: absolute;
+  right: 28%;
+}
+
+
+
+/* news section */
+.news-style {
+  margin-right: 5%;
+  font-size: 18pt;
+  padding-top: 20%;
+}
+.news-space {
+  padding: 30% 5% 5% 5%;
+}
+
+
+/*footer */
+.footer01 {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(182, 230, 252);
+  color: white;
+  margin-top: 10%;
+}
+.footer-dir-01 {
+  direction: rtl;
+}
+.footer-dir02 {
+  text-align: center;
+}
+.footer-links {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px){
+  .arrow {
+    display: none;
+  }
+  .footer01 {
+    margin-top: 600%;
+  }
+}

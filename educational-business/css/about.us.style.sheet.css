@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.off-link-dir {
+    text-align: right;
+}
+
+
+
+/*about us section style*/
+.about-us-section{
+    margin-top: 10%;
+    direction: rtl;
+    text-align: right;
+    margin-right: 10%;
+}
+.about-us-title{
+    font-size: 30pt;
+}
+.about-us-title:hover{
+    color: gray;
+}
+
+
+
+
+
+/*footer */
+.footer01 {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(182, 230, 252);
+    color: white;
+    margin-top: 15%;
+  }
+.footer-dir-01 {
+    direction: rtl;
+  }
+.footer-dir02 {
+    text-align: center;
+  }
+.footer-links {
+    text-decoration: none;
+  }
+
+
+
+
+@media only screen and (max-width: 768px){
+    .about-us-section{
+        margin-top: 20%;
+    }
+    .footer01 {
+      margin-top: 50%;
+    }
+  }
